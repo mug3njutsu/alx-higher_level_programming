@@ -7,5 +7,5 @@ def uppercase(str):
          else:
              new_ord = ord(char)
 
-         print(chr(new_ord), end='')
+         print("{}".format(chr(new_ord)), end='')
      print("\n", end='')
