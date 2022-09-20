@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def islower(c):
-    c = c.strip()
-    for char in c:
-        if char in list(map(chr, range(ord('a'), ord('z')+1))) and char not in "":
-            return True
+    if char in list(map(chr, range(ord('a'), ord('z')+1))):
+        return True
+    else:
+        return False
