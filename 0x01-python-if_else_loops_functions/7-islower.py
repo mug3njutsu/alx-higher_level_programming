@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 def islower(c):
-    if c in list(map(chr, range(ord('a'), ord('z')+1))):
+    if 97 <= ord(c) <= 122:
         return True
     else:
         return False
