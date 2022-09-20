@@ -5,4 +5,4 @@ for a in range(0, 10):
             if f"{a}{b}" != "89":
                 print("{}{}".format(a, b), end=', ')
             else:
-                print("{}{}".format(a, b), end='')
+                print("{}{}".format(a, b), end='\n')
