@@ -2,5 +2,5 @@
 
 def islower(c):
     for char in c:
-        if char in list(map(chr, range(ord('a'), ord('z')))):
+        if char in list(map(chr, range(ord('a'), ord('z')+1))):
             return True
