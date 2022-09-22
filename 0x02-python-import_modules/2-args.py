@@ -4,7 +4,7 @@ import sys
 
 if __name__ == "__main__":
     no_of_arguments = len(sys.argv)-1
-    print(f"{no_of_arguments:d} arguments.")
+    print(f"{no_of_arguments:d} arguments:")
 
     for i in range(1, len(sys.argv)):
 	    print(f"{i:d}: {sys.argv[i]}")
