@@ -4,9 +4,9 @@ from sys import argv
 
 if __name__ == "__main__":
     if len(argv) == 1:
-        print(f"{len(argv)-1:d} arguments.")
+        print("0 arguments.")
     elif len(argv) == 2:
-        print(f"{len(argv)-1:d} argument:")
+        print("1 argument:")
         print(f"{1:d}: {argv[1]}")
     else:
         print(f"{len(argv)-1:d} arguments:")
