@@ -9,6 +9,6 @@ if __name__ == "__main__":
         print(f"{len(argv)-1:d} argument:")
         print(f"{1:d}: {argv[1]}")
     else:
-        print(f"{len(argv)-1:d}: arguments:")
+        print(f"{len(argv)-1:d} arguments:")
         for i in range(1, len(argv)):
 	        print(f"{i:d}: {argv[i]}")
