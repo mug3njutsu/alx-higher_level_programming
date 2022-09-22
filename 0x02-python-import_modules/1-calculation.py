@@ -6,12 +6,7 @@ if __name__ == "__main__":
     a = 10
     b = 5
 
-    addition = add(a, b)
-    diff = sub(a, b)
-    multiplication = mul(a, b)
-    quotient = div(a, b)
-
-    print(f"{a:d} + {b:d} = {addition:d}")
-    print(f"{a:d} - {b:d} = {diff:d}")
-    print(f"{a:d} * {b:d} = {multiplication:d}")
-    print(f"{a:d} / {b:d} = {quotient:d}")
+    print(f"{a:d} + {b:d} = {add(a, b):d}")
+    print(f"{a:d} - {b:d} = {sub(a, b):d}")
+    print(f"{a:d} * {b:d} = {mul(a, b):d}")
+    print(f"{a:d} / {b:d} = {div(a, b):d}")
