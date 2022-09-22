@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+
 import magic_calculation_102
 
 def magic_calculation(a, b):
@@ -9,4 +10,3 @@ def magic_calculation(a, b):
         return c
     else:
         return (magic.calculation_102.sub(a, b))
-        
