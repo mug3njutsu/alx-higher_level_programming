@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-import sys
+from sys import argv
 
 if __name__ == "__main__":
-    no_of_arguments = len(sys.argv)-1
+    no_of_arguments = len(argv)-1
     print(f"{no_of_arguments:d} arguments:")
 
-    for i in range(1, len(sys.argv)):
-	    print(f"{i:d}: {sys.argv[i]}")
+    for i in range(1, len(argv)):
+	    print(f"{i:d}: {argv[i]}")
