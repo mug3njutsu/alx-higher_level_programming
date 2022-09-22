@@ -6,4 +6,4 @@ a = 1
 b = 2
 addition = add(a, b)
 
-print(f"{a:d} + {b:d} = {addition:d}")
+print(f"{a} + {b} = {addition:d}")
