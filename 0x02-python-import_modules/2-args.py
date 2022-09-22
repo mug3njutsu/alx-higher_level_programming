@@ -3,7 +3,6 @@
 import sys
 
 def main():
-
 	no_of_arguments = len(sys.argv)-1
 	print(f"{no_of_arguments:d} arguments.")
 
