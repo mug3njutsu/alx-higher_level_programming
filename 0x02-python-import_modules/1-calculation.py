@@ -1,16 +1,16 @@
 #!/usr/bin/python3
 
-import calculator_1
+from calculator_1 import add,sub,mul,div
 
 a = 10
 b = 5
 
-sum = calculator_1.add(a, b)
-diff = calculator_1.sub(a, b)
-multiplication = calculator_1.mul(a, b)
-quotient = calculator_1.div(a, b)
+addition = add(a, b)
+diff = sub(a, b)
+multiplication = mul(a, b)
+quotient = div(a, b)
 
-print(f"{a:d} + {b:d} = {sum}")
+print(f"{a:d} + {b:d} = {addition}")
 print(f"{a:d} - {b:d} = {diff}")
 print(f"{a:d} * {b:d} = {multiplication}")
 print(f"{a:d} / {b:d} = {quotient}")
