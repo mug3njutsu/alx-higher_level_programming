@@ -11,7 +11,7 @@ if __name__ == "__main__":
     multiplication = mul(a, b)
     quotient = div(a, b)
 
-    print(f"{a:d} + {b:d} = {addition}")
-    print(f"{a:d} - {b:d} = {diff}")
-    print(f"{a:d} * {b:d} = {multiplication}")
-    print(f"{a:d} / {b:d} = {quotient}")
+    print(f"{a:d} + {b:d} = {addition:d}")
+    print(f"{a:d} - {b:d} = {diff:d}")
+    print(f"{a:d} * {b:d} = {multiplication:d}")
+    print(f"{a:d} / {b:d} = {quotient:d}")
