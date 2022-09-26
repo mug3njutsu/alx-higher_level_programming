@@ -7,4 +7,3 @@ def multiple_returns(sentence):
         return None
     return length, first_char
 
-
