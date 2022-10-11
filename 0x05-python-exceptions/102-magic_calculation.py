@@ -11,4 +11,5 @@ def magic_calculation(a, b):
         except:
             var = (b + a)
             break
+            
     return var
