@@ -2,6 +2,7 @@
 import math
 """
 This module does math stuff
+It does 1+1 = 2 and that's pretty much it :)
 """
 
 
