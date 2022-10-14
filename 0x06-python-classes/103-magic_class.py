@@ -1,11 +1,11 @@
 #!/usr/bin/python3
-import math
 """
 This module does math stuff
 It does 1+1 = 2 and that's pretty much it :)
 """
 
 
+import math
 class MagicClass:
     def __init__(self, radius):
         self.__radius = 0
