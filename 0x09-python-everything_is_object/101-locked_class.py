@@ -2,6 +2,8 @@
 """
 LockedClass
 """
+
+
 class LockedClass:
     """ No class or object attributes, can't set
         Except for first_name
