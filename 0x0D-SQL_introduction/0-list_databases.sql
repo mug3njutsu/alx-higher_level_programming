@@ -1,2 +1,2 @@
--- Create Database
+-- List all databases
 show databases;
