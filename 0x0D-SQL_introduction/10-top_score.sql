@@ -1,2 +1,3 @@
-SELECT (score, name) FROM hbtn_0c_0.second_table
+-- Lists all records of table and sorts by score
+SELECT (score, name) FROM second_table
 ORDER BY score DESC;
