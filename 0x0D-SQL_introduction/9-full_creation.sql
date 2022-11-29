@@ -1,3 +1,4 @@
+-- Creates second_table
 CREATE TABLE hbtn_0c_0.second_table IF NOT EXISTS(
 id INT,
 name varchar(256),
