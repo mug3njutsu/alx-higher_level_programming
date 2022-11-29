@@ -1,2 +1,2 @@
 -- Prints the full description of first_table
-DESC;
+DESC first_table;
