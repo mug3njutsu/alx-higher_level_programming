@@ -1,3 +1,4 @@
 -- Lists all the cities contained in htbn_0d_usa
-SELECT id,name FROM cities WHERE states.name = "California";
-ORDER BY id ASC;
+SELECT cities.id, cities.name, states.name
+FROM cities
+INNER JOIN states ON cities.state_id=states.id;
